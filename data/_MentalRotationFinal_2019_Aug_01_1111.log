@@ -1,0 +1,107 @@
+13.7766 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x1359bdb38>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1358b84e0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2560, 1440]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.7766 	EXP 	window1: recordFrameIntervals = False
+13.9436 	EXP 	window1: recordFrameIntervals = True
+14.0129 	WARNING 	t of last frame was 20.76ms (=1/48)
+14.1938 	EXP 	window1: recordFrameIntervals = False
+15.7600 	EXP 	Created helloText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.035, italic=False, languageStyle='LTR', name='helloText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.8267 	EXP 	Created exampText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.035, italic=False, languageStyle='LTR', name='exampText', opacity=1.0, ori=0, pos=array([ 0.  , -0.25]), rgb=array([0., 0., 0.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.9592 	EXP 	Created exampIm = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='i43_0_R.jpg', interpolate=True, mask=None, maskParams=None, name='exampIm', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), size=array([0.5 , 0.35]), texRes=128, units='height', win=Window(...))
+15.9612 	EXP 	Created trialStimulus = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='trialStimulus', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.7, 0.5]), texRes=128, units='height', win=Window(...))
+15.9741 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([0., 0., 0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+16.0094 	EXP 	helloText: autoDraw = True
+20.8789 	DATA 	Keypress: s
+20.8938 	EXP 	helloText: autoDraw = False
+20.8938 	EXP 	exampText: autoDraw = True
+20.8938 	EXP 	exampIm: autoDraw = True
+23.1585 	EXP 	Imported mentalrotationstimuli.xlsx as conditions, 100 conditions, 3 params
+23.1592 	EXP 	Created sequence: random, trialTypes=100, nReps=1, seed=None
+23.1595 	EXP 	New trial (rep=0, index=0): OrderedDict([('imagefile', 'i9_50_R.jpg'), ('corrAns', 'd'), ('angle', 50)])
+23.2093 	DATA 	Keypress: s
+23.2288 	EXP 	exampText: autoDraw = False
+23.2288 	EXP 	exampIm: autoDraw = False
+23.2288 	EXP 	trialStimulus: image = 'i9_50_R.jpg'
+23.2288 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+23.2288 	EXP 	trialStimulus: autoDraw = True
+23.2288 	EXP 	text: autoDraw = True
+26.5493 	EXP 	New trial (rep=0, index=1): OrderedDict([('imagefile', 'i24_150_R.jpg'), ('corrAns', 'd'), ('angle', 150)])
+26.5835 	DATA 	Keypress: s
+26.5976 	EXP 	trialStimulus: autoDraw = False
+26.5976 	EXP 	text: autoDraw = False
+26.5976 	EXP 	trialStimulus: image = 'i24_150_R.jpg'
+26.5976 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+26.5976 	EXP 	trialStimulus: autoDraw = True
+26.5976 	EXP 	text: autoDraw = True
+26.9833 	EXP 	New trial (rep=0, index=2): OrderedDict([('imagefile', 'i39_0.jpg'), ('corrAns', 's'), ('angle', 0)])
+27.0177 	DATA 	Keypress: d
+27.0319 	EXP 	trialStimulus: autoDraw = False
+27.0319 	EXP 	text: autoDraw = False
+27.0319 	EXP 	trialStimulus: image = 'i39_0.jpg'
+27.0319 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+27.0319 	EXP 	trialStimulus: autoDraw = True
+27.0319 	EXP 	text: autoDraw = True
+27.3326 	EXP 	New trial (rep=0, index=3): OrderedDict([('imagefile', 'i2_50_R.jpg'), ('corrAns', 'd'), ('angle', 50)])
+27.3632 	DATA 	Keypress: s
+27.3825 	EXP 	trialStimulus: autoDraw = False
+27.3825 	EXP 	text: autoDraw = False
+27.3825 	EXP 	trialStimulus: image = 'i2_50_R.jpg'
+27.3825 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+27.3825 	EXP 	trialStimulus: autoDraw = True
+27.3825 	EXP 	text: autoDraw = True
+27.6341 	EXP 	New trial (rep=0, index=4): OrderedDict([('imagefile', 'i14_150_R.jpg'), ('corrAns', 'd'), ('angle', 150)])
+27.6652 	DATA 	Keypress: d
+27.6822 	EXP 	trialStimulus: autoDraw = False
+27.6822 	EXP 	text: autoDraw = False
+27.6822 	EXP 	trialStimulus: image = 'i14_150_R.jpg'
+27.6822 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+27.6822 	EXP 	trialStimulus: autoDraw = True
+27.6822 	EXP 	text: autoDraw = True
+27.8498 	EXP 	New trial (rep=0, index=5): OrderedDict([('imagefile', 'i13_150_R.jpg'), ('corrAns', 'd'), ('angle', 150)])
+27.8816 	DATA 	Keypress: s
+27.8997 	EXP 	trialStimulus: autoDraw = False
+27.8997 	EXP 	text: autoDraw = False
+27.8997 	EXP 	trialStimulus: image = 'i13_150_R.jpg'
+27.8997 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+27.8997 	EXP 	trialStimulus: autoDraw = True
+27.8997 	EXP 	text: autoDraw = True
+28.4848 	EXP 	New trial (rep=0, index=6): OrderedDict([('imagefile', 'i30_150.jpg'), ('corrAns', 's'), ('angle', 150)])
+28.5171 	DATA 	Keypress: d
+28.5327 	EXP 	trialStimulus: autoDraw = False
+28.5327 	EXP 	text: autoDraw = False
+28.5327 	EXP 	trialStimulus: image = 'i30_150.jpg'
+28.5327 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+28.5327 	EXP 	trialStimulus: autoDraw = True
+28.5327 	EXP 	text: autoDraw = True
+29.2677 	EXP 	New trial (rep=0, index=7): OrderedDict([('imagefile', 'i12_100.jpg'), ('corrAns', 's'), ('angle', 100)])
+29.2972 	DATA 	Keypress: s
+29.3177 	EXP 	trialStimulus: autoDraw = False
+29.3177 	EXP 	text: autoDraw = False
+29.3177 	EXP 	trialStimulus: image = 'i12_100.jpg'
+29.3177 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+29.3177 	EXP 	trialStimulus: autoDraw = True
+29.3177 	EXP 	text: autoDraw = True
+29.6685 	EXP 	New trial (rep=0, index=8): OrderedDict([('imagefile', 'i7_50_R.jpg'), ('corrAns', 'd'), ('angle', 50)])
+29.7005 	DATA 	Keypress: d
+29.7182 	EXP 	trialStimulus: autoDraw = False
+29.7182 	EXP 	text: autoDraw = False
+29.7182 	EXP 	trialStimulus: image = 'i7_50_R.jpg'
+29.7182 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+29.7182 	EXP 	trialStimulus: autoDraw = True
+29.7182 	EXP 	text: autoDraw = True
+30.0689 	EXP 	New trial (rep=0, index=9): OrderedDict([('imagefile', 'i38_150.jpg'), ('corrAns', 's'), ('angle', 150)])
+30.1015 	DATA 	Keypress: s
+30.1171 	EXP 	trialStimulus: autoDraw = False
+30.1171 	EXP 	text: autoDraw = False
+30.1171 	EXP 	trialStimulus: image = 'i38_150.jpg'
+30.1171 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+30.1171 	EXP 	trialStimulus: autoDraw = True
+30.1171 	EXP 	text: autoDraw = True
+30.3695 	EXP 	New trial (rep=0, index=10): OrderedDict([('imagefile', 'i37_150.jpg'), ('corrAns', 's'), ('angle', 150)])
+30.4019 	DATA 	Keypress: d
+30.4175 	EXP 	trialStimulus: autoDraw = False
+30.4175 	EXP 	text: autoDraw = False
+30.4175 	EXP 	trialStimulus: image = 'i37_150.jpg'
+30.4175 	EXP 	text: text = 'press \'d\' for "different" \npress \'s\' for "same"'
+30.4175 	EXP 	trialStimulus: autoDraw = True
+30.4175 	EXP 	text: autoDraw = True
+31.1386 	DATA 	Keypress: escape
+31.5167 	EXP 	window1: mouseVisible = True
