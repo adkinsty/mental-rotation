@@ -139,7 +139,7 @@ function experimentInit() {
     ori : 0, pos : [0.0, 0.15], size : [0.5, 0.35],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
-    texRes : 128, interpolate : true, depth : -2.0 
+    texRes : 512, interpolate : true, depth : -2.0 
   });
   // Initialize components for Routine "Trial"
   TrialClock = new util.Clock();
