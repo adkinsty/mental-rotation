@@ -1,6 +1,0 @@
-trialResp.keys,trialResp.corr,trialResp.rt,loop.thisRepN,loop.thisTrialN,loop.thisN,loop.thisIndex,loop.ran,loop.order,imagefile,corrAns,angle,participant,session,date,expName,psychopyVersion,frameRate
-s,1,5.931999922,1,0,100,41,1,99,i19_50.jpg,s,50,,001,2020-11-10_10h43.05.137,MentalRotationFinal,3.1.2,60
-d,1,2.996999979,1,0,100,76,1,99,i35_100_R.jpg,d,100,,001,2020-11-10_10h43.05.137,MentalRotationFinal,3.1.2,60
-d,1,4.625999928,1,0,100,42,1,99,i19_150_R.jpg,d,150,,001,2020-11-10_10h43.05.137,MentalRotationFinal,3.1.2,60
-s,1,1.726000071,1,0,100,29,1,99,i14_0.jpg,s,0,,001,2020-11-10_10h43.05.137,MentalRotationFinal,3.1.2,60
-d,0,3.194000006,1,0,100,17,1,99,i8_100.jpg,s,100,,001,2020-11-10_10h43.05.137,MentalRotationFinal,3.1.2,60
