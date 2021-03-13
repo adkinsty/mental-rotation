@@ -2,17 +2,6 @@
  * Mentalrotationfinal Test *
  ****************************/
 
-import { PsychoJS } from './lib/core-2020.2.js';
-import * as core from './lib/core-2020.2.js';
-import { TrialHandler } from './lib/data-2020.2.js';
-import { Scheduler } from './lib/util-2020.2.js';
-import * as visual from './lib/visual-2020.2.js';
-import * as sound from './lib/sound-2020.2.js';
-import * as util from './lib/util-2020.2.js';
-//some handy aliases as in the psychopy scripts;
-const { abs, sin, cos, PI: pi, sqrt } = Math;
-const { round } = util;
-
 // init psychoJS:
 const psychoJS = new PsychoJS({
   debug: true
@@ -194,9 +183,10 @@ function Instruction1RoutineBegin(snapshot) {
     Instruction1Components.push(helloText);
     Instruction1Components.push(helloKey);
     
-    for (const thisComponent of Instruction1Components)
+    Instruction1Components.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -254,11 +244,11 @@ function Instruction1RoutineEachFrame(snapshot) {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of Instruction1Components)
+    Instruction1Components.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine) {
@@ -273,11 +263,11 @@ function Instruction1RoutineEachFrame(snapshot) {
 function Instruction1RoutineEnd(snapshot) {
   return function () {
     //------Ending Routine 'Instruction1'-------
-    for (const thisComponent of Instruction1Components) {
+    Instruction1Components.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     // the Routine "Instruction1" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
@@ -305,9 +295,10 @@ function Instruction2RoutineBegin(snapshot) {
     Instruction2Components.push(exampKey);
     Instruction2Components.push(exampIm);
     
-    for (const thisComponent of Instruction2Components)
+    Instruction2Components.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -375,11 +366,11 @@ function Instruction2RoutineEachFrame(snapshot) {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of Instruction2Components)
+    Instruction2Components.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine) {
@@ -394,11 +385,11 @@ function Instruction2RoutineEachFrame(snapshot) {
 function Instruction2RoutineEnd(snapshot) {
   return function () {
     //------Ending Routine 'Instruction2'-------
-    for (const thisComponent of Instruction2Components) {
+    Instruction2Components.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     // the Routine "Instruction2" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
@@ -422,14 +413,15 @@ function loopLoopBegin(loopLoopScheduler) {
   currentLoop = loop;  // we're now the current loop
 
   // Schedule all the trials in the trialList:
-  for (const thisLoop of loop) {
+  loop.forEach(function() {
     const snapshot = loop.getSnapshot();
+
     loopLoopScheduler.add(importConditions(snapshot));
     loopLoopScheduler.add(TrialRoutineBegin(snapshot));
     loopLoopScheduler.add(TrialRoutineEachFrame(snapshot));
     loopLoopScheduler.add(TrialRoutineEnd(snapshot));
     loopLoopScheduler.add(endLoopIteration(loopLoopScheduler, snapshot));
-  }
+  });
 
   return Scheduler.Event.NEXT;
 }
@@ -463,9 +455,10 @@ function TrialRoutineBegin(snapshot) {
     TrialComponents.push(trialStimulus);
     TrialComponents.push(text);
     
-    for (const thisComponent of TrialComponents)
+    TrialComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
@@ -539,11 +532,11 @@ function TrialRoutineEachFrame(snapshot) {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    for (const thisComponent of TrialComponents)
+    TrialComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
-        break;
       }
+    });
     
     // refresh the screen if continuing
     if (continueRoutine) {
@@ -558,11 +551,11 @@ function TrialRoutineEachFrame(snapshot) {
 function TrialRoutineEnd(snapshot) {
   return function () {
     //------Ending Routine 'Trial'-------
-    for (const thisComponent of TrialComponents) {
+    TrialComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
-    }
+    });
     // was no response the correct answer?!
     if (trialResp.keys === undefined) {
       if (['None','none',undefined].includes(corrAns)) {
