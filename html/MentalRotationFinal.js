@@ -152,7 +152,7 @@ function experimentInit() {
     ori : 0, pos : [0, 0], size : [0.7, 0.5],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
-    texRes : 128, interpolate : true, depth : -1.0 
+    texRes : 512, interpolate : true, depth : -1.0 
   });
   text = new visual.TextStim({
     win: psychoJS.window,
