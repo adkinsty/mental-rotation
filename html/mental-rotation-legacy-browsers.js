@@ -1,6 +1,6 @@
-﻿/**************************** 
- * Mentalrotationfinal Test *
- ****************************/
+﻿/************************ 
+ * Mental-Rotation Test *
+ ************************/
 
 // init psychoJS:
 const psychoJS = new PsychoJS({
@@ -16,7 +16,7 @@ psychoJS.openWindow({
 });
 
 // store info about the experiment session:
-let expName = 'MentalRotationFinal';  // from the Builder filename that created this script
+let expName = 'mental-rotation';  // from the Builder filename that created this script
 let expInfo = {'participant': '', 'session': '001'};
 
 // Start code blocks for 'Before Experiment'
@@ -53,7 +53,7 @@ psychoJS.start({
   expInfo: expInfo,
   });
 
-psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.EXP);
+psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.DEBUG);
 
 
 var frameDur;
