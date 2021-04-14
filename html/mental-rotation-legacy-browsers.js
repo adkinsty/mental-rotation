@@ -17,7 +17,7 @@ psychoJS.openWindow({
 
 // store info about the experiment session:
 let expName = 'mental-rotation';  // from the Builder filename that created this script
-let expInfo = {'participant': '', 'session': '001'};
+let expInfo = {'participant': ''};
 
 // Start code blocks for 'Before Experiment'
 // schedule the experiment:
@@ -60,7 +60,7 @@ var frameDur;
 function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '2020.2.10';
+  expInfo['psychopyVersion'] = '2021.1.2';
   expInfo['OS'] = window.navigator.platform;
 
   // store frame rate of monitor if we can measure it successfully
@@ -146,7 +146,7 @@ function experimentInit() {
   text = new visual.TextStim({
     win: psychoJS.window,
     name: 'text',
-    text: 'default text',
+    text: '',
     font: 'Arial',
     units: undefined, 
     pos: [0, (- 0.4)], height: 0.03,  wrapWidth: undefined, ori: 0,

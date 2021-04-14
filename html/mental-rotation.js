@@ -2,13 +2,13 @@
  * Mental-Rotation Test *
  ************************/
 
-import { PsychoJS } from './lib/core-2020.2.js';
-import * as core from './lib/core-2020.2.js';
-import { TrialHandler } from './lib/data-2020.2.js';
-import { Scheduler } from './lib/util-2020.2.js';
-import * as visual from './lib/visual-2020.2.js';
-import * as sound from './lib/sound-2020.2.js';
-import * as util from './lib/util-2020.2.js';
+import { PsychoJS } from './lib/core-2021.1.2.js';
+import * as core from './lib/core-2021.1.2.js';
+import { TrialHandler } from './lib/data-2021.1.2.js';
+import { Scheduler } from './lib/util-2021.1.2.js';
+import * as visual from './lib/visual-2021.1.2.js';
+import * as sound from './lib/sound-2021.1.2.js';
+import * as util from './lib/util-2021.1.2.js';
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 const { round } = util;
@@ -28,7 +28,7 @@ psychoJS.openWindow({
 
 // store info about the experiment session:
 let expName = 'mental-rotation';  // from the Builder filename that created this script
-let expInfo = {'participant': '', 'session': '001'};
+let expInfo = {'participant': ''};
 
 // Start code blocks for 'Before Experiment'
 // schedule the experiment:
@@ -71,7 +71,7 @@ var frameDur;
 function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '2020.2.10';
+  expInfo['psychopyVersion'] = '2021.1.2';
   expInfo['OS'] = window.navigator.platform;
 
   // store frame rate of monitor if we can measure it successfully
@@ -157,7 +157,7 @@ function experimentInit() {
   text = new visual.TextStim({
     win: psychoJS.window,
     name: 'text',
-    text: 'default text',
+    text: '',
     font: 'Arial',
     units: undefined, 
     pos: [0, (- 0.4)], height: 0.03,  wrapWidth: undefined, ori: 0,
